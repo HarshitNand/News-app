@@ -1,0 +1,89 @@
+{
+  "status": "ok",
+  "totalResults": 8,
+  "articles": [
+    {
+      "source": { "id": "fox-sports", "name": "Fox Sports" },
+      "author": "FOX Sports",
+      "title": "U.S. Soccer legends join FOX Sports' World Cup broadcast team",
+      "description": "FOX Sports released the lineup for its star-studded World Cup broadcast team on Tuesday.",
+      "url": "http://www.foxsports.com/stories/soccer/u-s-soccer-legends-join-fox-sports-world-cup-broadcast-team",
+      "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2022/10/1408/814/lloyd.jpg?ve=1&tl=1",
+      "publishedAt": "2022-10-05T02:25:27Z",
+      "content": "On Tuesday, FOX Sports revealed its star-studded broadcast team for the 2022 FIFA World Cup in Qatar, featuring well-established stars of the industry as well as a few new faces with impressive resum… [+1484 chars]"
+    },
+    {
+      "source": { "id": "cbc-news", "name": "CBC News" },
+      "author": "CBC News",
+      "title": "Kids' physical activity dropped during pandemic, but researchers encouraged by more outdoor play | CBC News",
+      "description": "While COVID-19 health measures halted play dates and organized sports, many families seized the opportunity to go outdoors, a new report by ParticipAction says. But those opportunities weren't available to everyone, it says.",
+      "url": "http://www.cbc.ca/news/health/participaction-report-card-kids-physical-activity-1.6605940",
+      "urlToImage": "https://i.cbc.ca/1.6605976.1664913777!/cpImage/httpImage/image.jpg_gen/derivatives/16x9_620/participaction-pandemic-20221004.jpg",
+      "publishedAt": "2022-10-05T01:07:26.69615Z",
+      "content": "A new study attempts to quantify what many parents likely already know: dismal activity levels for kids and youth fell even further during the pandemic, while screen time soared.\r\nParticipAction's la… [+5242 chars]"
+    },
+    {
+      "source": { "id": "cbc-news", "name": "CBC News" },
+      "author": "CBC News",
+      "title": "Yankees' Judge hits 62nd home run, surpassing Maris's American League record | CBC Sports",
+      "description": "Aaron Judge hit his 62nd home run of the season Tuesday night, breaking Roger Maris's American League record and setting what some fans consider baseball's \"clean\" standard.",
+      "url": "http://www.cbc.ca/sports/baseball/mlb/mlb-aaron-judge-record-62nd-home-run-october-4-1.6606379",
+      "urlToImage": "https://i.cbc.ca/1.6606394.1664929623!/fileImage/httpImage/image.JPG_gen/derivatives/16x9_620/baseball-mlb-tex-nyy.JPG",
+      "publishedAt": "2022-10-05T00:37:25.5849945Z",
+      "content": "Aaron Judge hit his 62nd home run of the season Tuesday night, breaking Roger Maris's American League record and setting what some fans consider baseball's \"clean\" standard.\r\nThe 30-year-old Yankees … [+2801 chars]"
+    },
+    {
+      "source": { "id": "lequipe", "name": "L'equipe" },
+      "author": "L'EQUIPE",
+      "title": "Le flash sports du 5 octobre",
+      "description": "Retrouvez toute l'actualité sportive dans votre flash quotidien.",
+      "url": "https://www.lequipe.fr/Tous-sports/Actualites/Le-flash-sports-du-5-octobre/1357593",
+      "urlToImage": "https://medias.lequipe.fr/img-photo-jpg/le-flash-sports-l-equipe/1500000001695172/0:0,1997:1331-640-427-75/434bf.jpg",
+      "publishedAt": "2022-10-04T22:15:00+00:00",
+      "content": "L'OM renoue avec le succès en Ligue des Champions. Le PSG défie Benfica ce mercredi soir à Lisbonne. Christophe Laporte intouchable en Belgique, Evenepoel et Gilbert émus. L'Arabie saoudite accueille… [+38 chars]"
+    },
+    {
+      "source": { "id": "bleacher-report", "name": "Bleacher Report" },
+      "author": null,
+      "title": "George Pickens Blocking Drill ",
+      "description": "Fan easier, fan faster and fan better with Bleacher Report. Keep up with the latest storylines, expert analysis, highlights and scores for all your favorite sports.",
+      "url": "https://bleacherreport.com/videos/249191-george-pickens-is-underrated",
+      "urlToImage": null,
+      "publishedAt": "2022-09-15T15:07:20.3702294Z",
+      "content": null
+    },
+    {
+      "source": { "id": "bleacher-report", "name": "Bleacher Report" },
+      "author": null,
+      "title": " New Von Miller Show ",
+      "description": "Fan easier, fan faster and fan better with Bleacher Report. Keep up with the latest storylines, expert analysis, highlights and scores for all your favorite sports.",
+      "url": "https://bleacherreport.com/videos/249175-new-von-miller-show",
+      "urlToImage": null,
+      "publishedAt": "2022-09-14T20:07:17.1383973Z",
+      "content": "New Von Miller Show \r\nVon and guest Calais Campbell are talking everything from Lamar's contract to the Fournette-Parsons beef."
+    },
+    {
+      "source": {
+        "id": "the-washington-times",
+        "name": "The Washington Times"
+      },
+      "author": "The Washington Times https://www.washingtontimes.com",
+      "title": "Latest Quizzes",
+      "description": "Take a break from the hard news of the day and enjoy a quiz on entertainment, sports, history and politics only from The Washington Times.",
+      "url": "https://www.washingtontimes.com/quiz/",
+      "urlToImage": null,
+      "publishedAt": "2022-08-30T16:37:43.8583104Z",
+      "content": "Featured Quizzes\r\nTake the challenge to learn about the life and career highlights of famed nonagenarian actress and comedian Betty White.\r\n Shares \r\nRead our synopsis and correctly identify a litera… [+32510 chars]"
+    },
+    {
+      "source": { "id": "usa-today", "name": "USA Today" },
+      "author": null,
+      "title": "Daily Briefing",
+      "description": "The day's top stories, from sports to movies to politics to world events.",
+      "url": "https://profile.usatoday.com/newsletters/daily-briefing/",
+      "urlToImage": "https://profile.usatoday.com/newsletters/resources/usat/property/usatoday/newsletter-thumbs/8872UT-E-NLETTER02@2x.jpg",
+      "publishedAt": "2021-08-15T15:35:07+00:00",
+      "content": "The day's top stories, from sports to movies to politics to world events."
+    }
+  ]
+}
