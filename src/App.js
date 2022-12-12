@@ -6,26 +6,40 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import LoadingBar from 'react-top-loading-bar'
 
 
 
 // Your API key is: a845a7134cc64dc88e6fde3770f2db54
 
 class App extends Component {
+  pageSize=15;
+  state = {
+    progress:0
+  }
+  setProgress = (progress)=>{
+    this.setState({progress: progress})
+  }
   render() {
+    
     return (
       <div>
    < BrowserRouter>
         <NavBar />
+        <LoadingBar
+        height={3}
+        color='#f11946'
+        progress={this.state.progress} 
+        />
     <Routes>  
-       < Route path="/" element={<NewsC key="general" pageSize={10} country="in" category="general" />} />
-       < Route path="/business"element={<NewsC  key="business" pageSize={10} country="in" category="business"/>} />
-      <Route  path="/entertainment" element={<NewsC key="entertainment" pageSize={10} country="in" category="entertainment"/>} />
-      <Route  path="/general" element={<NewsC  key="general"pageSize={10} country="in" category="general"/>}/>
-      <Route  path="/health" element={<NewsC  key="health"pageSize={10} country="in" category="health"/>}/>
-      <Route  path="/science" element={<NewsC  key="science"pageSize={10} country="in" category="science"/>}/>
-      <Route  path="/sports" element={<NewsC  key="sports"pageSize={10} country="in" category="sports"/>}/>
-      <Route  path="/technology" element={<NewsC  key="technology"pageSize={10} country="in" category="technology"/>} />
+       < Route exact path="/Home" element={<NewsC setProgress={this.setProgress} key="general" pageSize={this.pageSize} country="in" category="general" />} />
+       < Route exact path="/business"element={<NewsC setProgress={this.setProgress} key="business" pageSize={this.pageSize} country="in" category="business"/>} />
+      <Route  exact path="/entertainment" element={<NewsC setProgress={this.setProgress}key="entertainment" pageSize={this.pageSize} country="in" category="entertainment"/>} />
+      <Route  exact path="/general" element={<NewsC setProgress={this.setProgress} key="general"pageSize={this.pageSize} country="in" category="general"/>}/>
+      <Route  exact path="/health" element={<NewsC setProgress={this.setProgress} key="health"pageSize={this.pageSize} country="in" category="health"/>}/>
+      <Route  exact path="/science" element={<NewsC setProgress={this.setProgress} key="science"pageSize={this.pageSize} country="in" category="science"/>}/>
+      <Route  exact path="/sports" element={<NewsC setProgress={this.setProgress} key="sports"pageSize={this.pageSize} country="in" category="sports"/>}/>
+      <Route  exact path="/technology" element={<NewsC setProgress={this.setProgress} key="technology"pageSize={this.pageSize} country="in" category="technology"/>} />
     </Routes>
  </BrowserRouter>
       </div>
