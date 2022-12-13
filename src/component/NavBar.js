@@ -31,7 +31,7 @@ export class NavBar extends Component {
                  <Link
                     className="nav-link active"
                     aria-current="page"
-                   to="/Home"
+                   to="/general"
                   >
                     Home
                  </Link>
